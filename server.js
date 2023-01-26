@@ -76,8 +76,11 @@ app.get('/home',(req,res)=>{
 	if(req.session.loggedin){
 		res.write(htmlTop);
 		res.write('<body>\n')
-		res.write('Welcome back ' + req.session.username)
+		res.write('<p id="user">Welcome back ' + req.session.username+'</p>')
 		res.write('<br><button onclick="window.location.href=\'/logout\'">Logout</button>');
+		
+
+
 		res.write('\n</body>\n</html>')
 		res.send();
 	}else{
