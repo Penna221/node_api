@@ -14,4 +14,5 @@ You can setup this nodejs api with the following rules
 
 
 ### NOTE
-Please notice that the authentication is **not secure**. Password is **not encrypted**. This is just for quick base to get things started :)
+Please notice that the authentication is **not secure**. Password is **not encrypted**. The sql connection just compares table value to given parameters.
+This is just for quick base to get things started :)
