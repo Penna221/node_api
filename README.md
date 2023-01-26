@@ -5,15 +5,14 @@ But you can clone this repository and strip down the code to your needs.
 ## Setup
 You can setup this nodejs api with the following steps
 1. Clone repository
-2. npm init
-3. npm install
-4. create .env file with SQL variables.
+2. npm install
+3. create .env file with SQL variables.
   HOST=""
   PORT=number
   USER=""
   PASSWORD=""
   DATABASE=""
-5. Run with command npm run devStart 
+4. Run with command npm run devStart 
 
 
 ### Disclaimer
